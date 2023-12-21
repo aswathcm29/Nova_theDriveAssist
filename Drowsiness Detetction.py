@@ -17,7 +17,7 @@ def eye_aspect_ratio(eye):
 
 thresh = 0.25
 flag = 0
-frame_check = 20
+frame_check = 24
 (lStart, lEnd) = face_utils.FACIAL_LANDMARKS_68_IDXS['left_eye']
 (rStart, rEnd) = face_utils.FACIAL_LANDMARKS_68_IDXS['right_eye']
 detect = dlib.get_frontal_face_detector()
