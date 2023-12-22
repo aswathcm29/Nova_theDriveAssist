@@ -5,7 +5,6 @@ from imutils import face_utils
 from scipy.spatial import distance
 from pygame import mixer
 
-
 mixer.init()
 mixer.music.load("music.wav")
 def eye_aspect_ratio(eye):
