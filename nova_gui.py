@@ -28,7 +28,6 @@ class FridayApp(App):
         self.instructions_label = Label(text='', font_size=14, size_hint_y=None, height=500)
         scroll_view.add_widget(self.instructions_label)
         layout.add_widget(scroll_view)
-
         return layout
 
     def submit_instruction(self, instance):
